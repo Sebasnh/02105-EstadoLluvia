@@ -20,16 +20,14 @@ package org.japo.java.main;
  * @author Sebastian Najarro Heredia - sebastian.najarro.alum@iescamp.es
  */
 public class Main {
+
     public static void main(String[] args) {
-         
-        final boolean LLUVIA=true;
-        final boolean SOLEADO=false;
-        
-        System.out.printf (SOLEADO + "%n");
-        
-        
-        
+
+        final boolean LLUVIA = true;
+        final boolean SOLEADO = false;
+
+        System.out.printf("%b.%n", SOLEADO);
+
     }
-   
-    
+
 }
